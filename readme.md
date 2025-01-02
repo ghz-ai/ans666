@@ -33,7 +33,7 @@ pip install -r requirements.txt
 </details>
 
 
- <img src="/gif/work3.gif" width="200" height="200">
+ <img src="/gif/ghz1.png" width="200" height="200">
 
 
 ## 模型结果展示
