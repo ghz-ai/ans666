@@ -7,7 +7,7 @@ Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强
 [👉ANS的论文地址](https://arxiv.org/abs/2308.05972)
 
 [👉ANS的github项目](https://github.com/Asa9aoTK/ANS-Recbole)
-
+😀😀😀😀😀😀😀😀😀
 ## Requirement![new](/gif/new.gif)  
 
 <details open>
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 </details>
 
 
- <img src="/gif/work1.gif" width="200" height="200">
+ <img src="/gif/work3.gif" width="200" height="200">
 
 
 ## 模型结果展示
