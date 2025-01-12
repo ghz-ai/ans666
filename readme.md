@@ -1,14 +1,14 @@
 # Using Rechours Framework to Evaluate the Effectiveness of ANS Model   **2024/12/31**
-Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强负采样技术![new](/gif/new.gif)
-本项目将ANS模型用于ReChorus框架进行测试😁，用于处理多种推荐算法的研究和复现工作😉
+Augmented Negative Sampling (ANS) 是一种用于协同过滤模型的增强负采样技术!
+本项目将ANS模型用于ReChorus框架进行测试，用于处理多种推荐算法的研究和复现工作
 增强负采样（ANS）是对传统负采样方法的优化改进，专用于协同过滤模型。与传统方法不同，ANS引入更多上下文信息，如物品特征和用户偏好，来强化负样本生成过程，进而提升模型表现力与泛化能力。在协同过滤中，负样本选择对模型训练效果极为关键。
 
-[郭怀泽的 GitHub Page](https://github.com/Zwt122544/ANS).<img src="/gif/github.gif" width="20" height="20">
+[郭怀泽的 GitHub Page](https://github.com/Zwt122544/ANS).
 
-[👉ANS的论文地址](https://arxiv.org/abs/2308.05972)
+[ANS的论文地址](https://arxiv.org/abs/2308.05972)
 
-[👉ANS的github项目](https://github.com/Asa9aoTK/ANS-Recbole)
-😀😀😀😀😀😀😀😀😀
+[ANS的github项目](https://github.com/Asa9aoTK/ANS-Recbole)
+
 ## Requirement![new](/gif/new.gif)  
 
 <details open>
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 （4）. 动态负样本选择
 -在训练过程中，模型的性能会不断变化。动态负样本选择方法可以根据模型的当前性能，动态调整负样本的选择策略，选择更具挑战性的负样本，使模型在训练过程中始终保持高效的学习状态。这种方法可以避免模型在训练过程中陷入局部最优，提高模型的收敛速度和最终性能。
 
-**🚀 点击展开查看代码**
+**点击展开查看代码**
 <details open>
   
   
