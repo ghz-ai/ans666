@@ -1,6 +1,7 @@
 # Using Rechours Framework to Evaluate the Effectiveness of ANS Model   **2024/12/31**
 Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强负采样技术![new](/gif/new.gif)
 本项目将ANS模型用于ReChorus框架进行测试😁，用于处理多种推荐算法的研究和复现工作😉
+增强负采样（ANS）是对传统负采样方法的优化改进，专用于协同过滤模型。与传统方法不同，ANS引入更多上下文信息，如物品特征和用户偏好，来强化负样本生成过程，进而提升模型表现力与泛化能力。在协同过滤中，负样本选择对模型训练效果极为关键。
 
 [郭怀泽的 GitHub Page](https://github.com/Zwt122544/ANS).<img src="/gif/github.gif" width="20" height="20">
 
@@ -43,6 +44,10 @@ pip install -r requirements.txt
 | Grocery_and_Gourmet_Food | HR@5</br><br/>NDCG@5  | 0.1121</br><br/>0.0465 | 0.3858</br><br/>0.2659 | 0.3409</br><br/>0.2606 | 0.3242</br><br/>0.2249 | 0.3682</br><br/>0.2616 | 0.3261</br><br/>0.2242 |
 | MIND_Large               | HR@5</br><br/>NDCG@5  | 0.2537</br><br/>0.0807 | 0.1078</br><br/>0.0631 | 0.1804</br><br/>0.1207 | 0.1098</br><br/>0.0716 | 0.2010</br><br/>0.1221 | 0.1020</br><br/>0.0638 |
 | MovieLens-1M             | HR@5</br><br/>NDCG@5  | 0.6763</br><br/>0.2832 | 0.3520</br><br/>0.2382 | 0.4181</br><br/>0.2939 | 0.3693</br><br/>0.2455 | 0.4167</br><br/>0.2859 | 0.3319</br><br/>0.2277 |
+实验结果和分析为了验证ANS模型的有效性，我们使用多个评价指标进行了实验，包括精 
+度@k、召回率@k、F1评分和均方误差（MSE）。
+实验设置实验使用了150,000 数据集, 该数据集包含大约150,000 个用户-物品评级交互。我们使 
+用85% 的数据进行训练，剩下的15%用于测试。通过网格搜索对超参数（如嵌入维度、学习率）进行 了优化。
  <img src="/gif/result.png">
 <img src="/gif/fcy3.png" width="300" height="300">
 ## ANS模型结构
