@@ -33,7 +33,7 @@ pip install -r requirements.txt
 </details>
 
 
- <img src="/gif/fcy1.png" width="2300" height="300">
+ <img src="/gif/fcy1.png" width="300" height="300">
 
 
 ## 模型结果展示
