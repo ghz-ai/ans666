@@ -303,6 +303,7 @@ python main.py --model_name ANS --emb_size 64 --lr 1e-3 --l2 0 --loss_n BPR --da
 - `--path`: 数据集路径
 
 
+在本研究中，我们运用Rechours框架对ANS（基于注意力的邻域采样）模型的有效性进行了深入评估。实验成果揭示，ANS模型在诸多关键评估维度上均展现出卓越性能，涵盖推荐精准度、召回率、F1分数以及评分预测精准度等多个方面，均显著超越传统协同过滤手段及矩阵分解模型。该模型精准把握用户与项目间的潜在互动关联，有效提升了推荐的精准度与多样性，进而强化了模型的泛化实力。
 ## License
 
 This project is licensed under the MIT License. It references ideas and methodologies from the following projects:
