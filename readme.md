@@ -40,6 +40,7 @@ pip install -r requirements.txt
 度@k、召回率@k、F1评分和均方误差（MSE）。
 实验设置实验使用了150,000 数据集, 该数据集包含大约150,000 个用户-物品评级交互。我们使 
 用85% 的数据进行训练，剩下的15%用于测试。通过网格搜索对超参数（如嵌入维度、学习率）进行 了优化。
+
 <img src="/gif/fcy3.png" width="300" height="300">
 ## ANS模型结构
 <img src="/gif/structure.png">
