@@ -9,12 +9,12 @@ Augmented Negative Sampling (ANS) 是一种用于协同过滤模型的增强负�
 
 [ANS的github项目](https://github.com/Asa9aoTK/ANS-Recbole)
 
-## Requirement![new](/gif/new.gif)  
+## Requirement  
 
 <details open>
 <summary>点击展开安装依赖</summary>
 
-克隆 repo，并要求在 [**Python>=3.8.0**]🌟 (https://www.python.org/)  环境中安装requirements.txt
+克隆 repo，并要求在 [**Python>=3.8.0**] (https://www.python.org/)  环境中安装requirements.txt
 <img src="/gif/python.gif" width="20" height="20">
 ```bash
 pip install -r requirements.txt
