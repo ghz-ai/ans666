@@ -281,7 +281,7 @@ class ANS(GeneralRecommender):
       return score.view(-1)
  ```
 </details>
-<img src="/gif/fcy4.png" width="300" height="300">
+<img src="/gif/fcy4.png" width="500" height="300">
 
 
 ## Usage
