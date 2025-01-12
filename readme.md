@@ -44,7 +44,7 @@ pip install -r requirements.txt
 | MIND_Large               | HR@5</br><br/>NDCG@5  | 0.2537</br><br/>0.0807 | 0.1078</br><br/>0.0631 | 0.1804</br><br/>0.1207 | 0.1098</br><br/>0.0716 | 0.2010</br><br/>0.1221 | 0.1020</br><br/>0.0638 |
 | MovieLens-1M             | HR@5</br><br/>NDCG@5  | 0.6763</br><br/>0.2832 | 0.3520</br><br/>0.2382 | 0.4181</br><br/>0.2939 | 0.3693</br><br/>0.2455 | 0.4167</br><br/>0.2859 | 0.3319</br><br/>0.2277 |
  <img src="/gif/result.png">
-<img src="/gif/fcy2.png" width="300" height="300">
+<img src="/gif/fcy3.png" width="300" height="300">
 ## ANS模型结构
 <img src="/gif/structure.png">
 
