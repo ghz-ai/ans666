@@ -3,7 +3,7 @@ Augmented Negative Sampling (ANS) 是一种用于协同过滤模型的增强负�
 本项目将ANS模型用于ReChorus框架进行测试，用于处理多种推荐算法的研究和复现工作
 增强负采样（ANS）是对传统负采样方法的优化改进，专用于协同过滤模型。与传统方法不同，ANS引入更多上下文信息，如物品特征和用户偏好，来强化负样本生成过程，进而提升模型表现力与泛化能力。在协同过滤中，负样本选择对模型训练效果极为关键。
 
-[郭怀泽的 GitHub Page](https://github.com/Zwt122544/ANS).
+[郭怀泽的 GitHub Page](https://github.com/ghz-ai/ans666).
 
 [ANS的论文地址](https://arxiv.org/abs/2308.05972)
 
